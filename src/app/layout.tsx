@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Gewenbo", url: "https://psyverse.fun" }],
   alternates: { canonical: "/", languages: { en: "/", "zh-CN": "/", "x-default": "/" } },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Human Factory · 人类制造厂 — How Humans Are Made: a bilingual cinematic exploration of the forces that manufacture every person — biology, genetics, family, language, education, culture, geography, history, technology, society, money, decisions and luck — across 20 sections, a human knowledge graph, and an interactive life simulator" }],
     title: "Human Factory · 人类制造厂",
     description:
       "How Humans Are Made — you are not the result of a single choice, but the product of millions of interacting forces.",
@@ -25,6 +26,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: "Human Factory · 人类制造厂",
     description: "How humans are made — biology, family, culture, technology, society, decisions & luck across a lifetime.",
